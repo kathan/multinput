@@ -32,7 +32,7 @@
               li = $('<li></li>').appendTo(ul),
               input;
           if (!$(this).prop('disabled')) {
-            input = $('<textarea class="ui-widget" style="display:inline;border:none;resize:none;overflow:auto"></textarea>').appendTo(li);
+            input = $('<textarea class="ui-widget"></textarea>').appendTo(li);
 
             cont.click(function(e) {
               input.focus();

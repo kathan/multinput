@@ -58,4 +58,8 @@ li.multinput-good span {
 
 textarea.ui-widget{
 	font-family:sans-serif;
+	display:inline;
+	border:none;
+	resize:none;
+	overflow:auto
 }
